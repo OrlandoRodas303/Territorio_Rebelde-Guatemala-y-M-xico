@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Territorio Rebelde</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #03DAC5;
+            padding-left: 10px;
+            color: #BB86FC;
+        }
+        a {
+            color: #03DAC5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .source {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #20b954;
+        }
+        footer {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+            color: #AAAAAA;
+            border-top: 1px solid #333;
+        }
+    </style>
+    <script>
+        function confirmarWhatsApp() {
+            const continuar = confirm("¿Perfecto, quieres seguir dialogando acerca de este tema? Continuemos en WhatsApp.");
+            if (continuar) {
+                window.location.href = 'https://wa.me/50237246407';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-flag"></i> Territorio Rebelde: México, Guatemala y la Historia</h1>
+    </header>
+    <main>
+        <section>
+            <h2><i class="fas fa-fire"></i> ¿Qué es un territorio rebelde?</h2>
+            <p>Un territorio rebelde es una región que, en determinado momento histórico, se ha levantado o se ha independizado de una autoridad o imperio dominante. En este contexto, se refiere a aquellas naciones que fueron parte del Imperio español y lucharon por su independencia.</p>
+        </section><section>
+        <h2><i class="fas fa-lightbulb"></i> Contexto histórico</h2>
+        <p>México, Guatemala y gran parte de Centroamérica formaban parte del dominio español en América. Durante el siglo XIX, surgieron movimientos independentistas que culminaron con la separación definitiva de estos países del imperio. México fue uno de los pioneros en esta revolución, sirviendo de inspiración para otras naciones de la región.</p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-comments"></i> Debate e interpretación moderna</h2>
+        <p>Durante un debate, se planteó que toda Latinoamérica fue un territorio rebelde de España. Esta afirmación es históricamente válida, ya que casi todos los países de la región lucharon por su independencia. Sin embargo, una persona argumentó que Guatemala es un territorio rebelde de México. Esto no es correcto, ya que Guatemala y los países centroamericanos también fueron colonias españolas y lograron su independencia en paralelo o posterior a México, pero no dependían de México políticamente tras la independencia.</p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-check-circle"></i> Conclusión del debate</h2>
+        <p>La conclusión fue que tanto México como Guatemala y Centroamérica, son efectivamente territorios que se rebelaron contra el dominio español. Guatemala no fue un territorio rebelde de México, sino que fue parte del mismo proceso de independencia del imperio español. Es más preciso hablar de territorios rebeldes del imperio español en general.</p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-book"></i> Fuentes de información</h2>
+        <div class="source"><i class="fab fa-wikipedia-w"></i> <a href="https://es.wikipedia.org/wiki/Independencia_de_Centroam%C3%A9rica" target="_blank">Wikipedia - Independencia de Centroamérica</a></div>
+        <div class="source"><i class="fab fa-wikipedia-w"></i> <a href="https://es.wikipedia.org/wiki/Independencia_de_M%C3%A9xico" target="_blank">Wikipedia - Independencia de México</a></div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-phone-alt"></i> Contáctame</h2>
+        <button class="whatsapp-btn" onclick="confirmarWhatsApp()">
+            <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+        </button>
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 Orlando Rodas. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
